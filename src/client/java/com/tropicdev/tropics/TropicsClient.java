@@ -1,4 +1,4 @@
-package com.tropicdev;
+package com.tropicdev.tropics;
 
 import net.fabricmc.api.ClientModInitializer;
 

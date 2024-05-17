@@ -1,11 +1,9 @@
 {
 	"required": true,
-	"package": "com.tropicdev.mixins",
+	"package": "com.tropicdev.tropics.mixins",
 	"compatibilityLevel": "JAVA_17",
+	"minVersion": "0.8.4",
 	"mixins": [
-	],
-	"client": [
-
 	],
 	"server": [
 

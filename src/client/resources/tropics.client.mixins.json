@@ -1,9 +1,10 @@
 {
 	"required": true,
-	"package": "com.tropicdev.mixins.client",
+	"package": "com.tropicdev.tropics.mixins.client",
 	"compatibilityLevel": "JAVA_17",
+	"minVersion": "0.8.4",
 	"client": [
-      "com.tropicdev.mixins.ExampleClientMixin"
+
 	],
 	"injectors": {
 		"defaultRequire": 1

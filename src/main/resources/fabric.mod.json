@@ -22,13 +22,15 @@
 		"client": [
 			"${mod_client_entrypoint}"
 		],
-		"data": [
+		"fabric-datagen": [
 			"${mod_datagen_entrypoint}"
 		]
 	},
 	"mixins": [
-		"${mod_id}.mixins.json",
-		"${mod_id}.client.mixins.json"
+		"${mod_id}.mixins.json", {
+			"config": "${mod_id}.client.mixins.json",
+			"environment": "client"
+		}
 	],
 	"depends": {
 		"fabricloader": "${loader_version_range}",
@@ -42,13 +44,7 @@
 	"custom": {
 		"modmenu": {
 			"links": {
-				"tropics.discord": "https://discord.gg/2SQTytEZX2"
-			},
-			"parent": {
-				"id": "${mod_id}",
-				"name": "${mod_name}",
-				"description": "${mod_description}",
-				"icon": "${mod_icon_path}"
+				"Discord": "https://discord.gg/2SQTytEZX2"
 			},
 			"update_checker": true
 		}

@@ -89,8 +89,6 @@ loom {
 
 	accessWidenerPath = file("src/main/resources/${mod_id}.accesswidener")
 
-	mixin { defaultRefmapName.set("${mod_id}.refmap.json") }
-
 	mods {
 		mod_id {
 			sourceSet sourceSets.main
